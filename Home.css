@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: none;
+  background-image: linear-gradient(black, #1a1a1a);
 }
 
 .u-section-1 .u-sheet-1 {
@@ -57,17 +57,20 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-btn-1 {
-    margin-right: 598px;
-    margin-left: auto;
+    margin-top: 119px;
+    margin-left: 117px;
   }
 
   .u-section-1 .u-btn-2 {
     margin-left: 598px;
   }
 
+  .u-section-1 .u-image-1 {
+    margin-left: 342px;
+  }
+
   .u-section-1 .u-btn-3 {
-    margin-right: 598px;
-    margin-left: auto;
+    margin-left: 117px;
   }
 
   .u-section-1 .u-btn-4 {
@@ -77,75 +80,79 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-btn-1 {
-    margin-right: auto;
     margin-left: 36px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: 36px;
-    margin-left: auto;
+    margin-left: 459px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-left: 232px;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-right: auto;
     margin-left: 36px;
   }
 
   .u-section-1 .u-btn-4 {
-    margin-right: 36px;
-    margin-left: auto;
+    margin-left: 459px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-btn-1 {
-    margin-right: 300px;
-    margin-left: auto;
+    margin-left: 15px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: auto;
     margin-left: 300px;
   }
 
   .u-section-1 .u-image-1 {
-    margin-left: 284px;
+    margin-left: 142px;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-right: 300px;
-    margin-left: auto;
+    margin-left: 15px;
   }
 
   .u-section-1 .u-btn-4 {
-    margin-right: auto;
     margin-left: 300px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 901px;
+    min-height: 716px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-right: auto;
+    margin-top: 12px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-2 {
+    margin-top: 362px;
     margin-left: auto;
   }
 
   .u-section-1 .u-image-1 {
-    margin-left: 84px;
+    width: 225px;
+    height: 225px;
+    margin-top: -341px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-right: auto;
+    margin-top: -340px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-4 {
+    margin-top: 362px;
     margin-left: auto;
+    margin-bottom: 12px;
   }
 }html {}
 body {
